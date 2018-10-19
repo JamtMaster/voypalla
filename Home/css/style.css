@@ -459,8 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   bottom: 0;
   margin-top: -150px;
-  z-index: 10;
-  padding-bottom: 7em;
+  z-index: 10;  
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro {
@@ -478,10 +477,10 @@ h1, h2, h3, h4, h5, h6 {
   -moz-flex-wrap: wrap;
 }
 #fh5co-intro .fh5co-block {
-  width: 33.33%;
+  width: 50%;
   float: left;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   min-height: 300px;
   vertical-align: middle;
   padding: 40px;
