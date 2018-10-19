@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -215,6 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #fh5co-header .navbar-brand {
     color: #52d3aa !important;
+
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -671,6 +672,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-services h3 {
   font-size: 24px;
   color: #fff;
+  font-style: bold;
 }
 #fh5co-services .icon {
   font-size: 70px;
@@ -750,6 +752,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-counters .section-heading .subtext h3 {
   color: rgba(255, 255, 255, 0.7) !important;
+  font-style: bold;
+
 }
 #fh5co-counters .fh5co-counter {
   position: relative;
