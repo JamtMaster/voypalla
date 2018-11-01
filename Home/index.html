@@ -42,11 +42,10 @@
 
 	<link rel="stylesheet" href="css/style.css">
 
-	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
-	<link rel="stylesheet" id="theme-switch" href="css/style.css">
-	<!-- End demo purposes only -->
-
-	<!-- End demo purposes only -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -70,13 +69,16 @@
 		          <ul class="nav navbar-nav navbar-right">
 		            <li class="active"><a href="#" data-nav-section="home"><span>Inicio</span></a></li>
 		            <li><a href="#" data-nav-section="services"><span>Servicios</span></a></li>
-								<li><a href="#" data-nav-section="register"><span>Registrarse</span></a></li>
+					<li><a href="#" data-nav-section="register"><span>Registrarse</span></a></li>
 		            <li><a href="#" data-nav-section="contact"><span>Contactenos</span></a></li>
+<<<<<<< HEAD
 								<li><a class="external" href="Inicio.html" > <span>Login</span></a></li>
+=======
+		            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <span>Login</span></button>
+>>>>>>> origin/develop
 		          </ul>
 		        </div>
 			    </nav>
-			  <!-- </div> -->
 		  </div>
 	</header>
 
@@ -89,7 +91,7 @@
 						<div class="col-md-8 col-md-offset-2">
 							<h1 class="to-animate">EL SITIO IDEAL PARA RESERVAR TURNOS</h1>
 							<br>
-							<h2 class="to-animate"> <span>Somos una web dedicada a la reserva de turnos en los diferentes centros de atencion asociados con nosotros</span>  </h2>
+							<h2 class="to-animate"> <span>Somos una web dedicada a la reserva de turnos en los diferentes centros de atencion asociados con nosotros</span></h2>
 						</div>
 					</div>
 				</div>
@@ -97,6 +99,38 @@
 		</div>
 		<div class="slant"></div>
 	</section>
+
+ <!-- Seccion para ModaLogin -->
+ <div class="container">
+ 	<div class="modal fade" id="myModal" role="dialog">
+ 		<div class="modal-dialog" role="document">
+ 			<div class="modal-content">
+ 				<div class="modal-header">
+ 					<div class="modal-body">
+ 						
+ 				
+				   	  <form action="/examples/actions/confirmation.php" method="post">
+				        <h2 class="text-center">Iniciar sesion </h2>
+				        <div class="text-center social-btn">
+				      <a href="#" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i><b>Facebook</b></a>
+				      <a href="#" class="btn btn-info btn-block"><i class="fa fa-twitter"></i><b>Twitter</b></a>
+					  <a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i><b>Google</b></a>
+				        </div>
+				        <div class="clearfix">
+				            <label class="pull-left checkbox-inline"><input type="checkbox"> Recuerdame</label>
+				        </div>  
+        
+   							 </form>
+					
+ 						
+ 					</div>
+ 					
+ 				</div>
+ 			</div>
+ 		
+ 		</div>
+ 	</div>	
+ </div>
 
 	<section id="fh5co-services" data-section="services">
 		<div class="container">
@@ -275,25 +309,6 @@
 	<!-- Google Map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script>
-
-	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
-	<script src="js/jquery.style.switcher.js"></script>
-	<script>
-		$(function(){
-			$('#colour-variations ul').styleSwitcher({
-				defaultThemeId: 'theme-switch',
-				hasPreview: false,
-				cookie: {
-		          	expires: 30,
-		          	isManagingLoad: true
-		      	}
-			});
-			$('.option-toggle').click(function() {
-				$('#colour-variations').toggleClass('sleep');
-			});
-		});
-	</script>
-	<!-- End demo purposes only -->
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>

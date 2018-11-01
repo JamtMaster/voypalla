@@ -196,6 +196,44 @@ h1, h2, h3, h4, h5, h6 {
   transform-origin: 0 0;
 }
 
+/*Codigo para login modal*/
+.login-form {
+    width: 450px;
+      margin: 120px auto;
+  }
+    .login-form form {
+      margin-bottom: 15px;
+       
+    }
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+    .login-form .hint-text {
+    color: #777;
+    padding-bottom: 15px;
+    text-align: center;
+    }
+    .form-control, .btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .login-btn {        
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .social-btn .btn {
+        margin: 10px 0;
+        font-size: 18px;
+        text-align: left; 
+        line-height: 24px;       
+    }
+  .social-btn .btn i {
+    float: left;
+    margin: 4px 15px  0 5px;
+        min-width: 15px;
+  }
+
 #fh5co-header {
   position: absolute;
   z-index: 99;
