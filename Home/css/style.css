@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   }
     .login-form form {
       margin-bottom: 15px;
-       
+
     }
     .login-form h2 {
         margin: 0 0 15px;
@@ -217,16 +217,16 @@ h1, h2, h3, h4, h5, h6 {
         min-height: 38px;
         border-radius: 2px;
     }
-    .login-btn {        
+    .login-btn {
         font-size: 15px;
         font-weight: bold;
     }
-    
+
     .social-btn .btn {
         margin: 10px 0;
         font-size: 18px;
-        text-align: left; 
-        line-height: 24px;       
+        text-align: left;
+        line-height: 24px;
     }
   .social-btn .btn i {
     float: left;
@@ -1293,7 +1293,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
