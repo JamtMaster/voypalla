@@ -194,7 +194,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInRight animated');
-							},  k * 400, 'easeInOutExpo' );
+							},  k * 200, 'easeInOutExpo' );
 							
 						});
 					}, 400);

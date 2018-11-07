@@ -499,8 +499,8 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-intro {
   position: relative;
   bottom: 0;
-  margin-top: -5px;
-  z-index: 10;
+  margin-top: -10px;
+  z-index: 7;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro {
@@ -522,9 +522,9 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   text-align: center;
   font-size: 18px;
-  min-height: 300px;
+  min-height: 200px;
   vertical-align: middle;
-  padding: 40px;
+  padding: 65px;
   background: #fff;
   -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
