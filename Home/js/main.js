@@ -181,7 +181,7 @@
 
 
 	var introAnimate = function() {
-		if ( $('#fh5co-intro').length > 0 ) {	
+		if ( $('#fh5co-intro').length > 0) {	
 
 			$('#fh5co-intro').waypoint( function( direction ) {
 										
@@ -194,10 +194,10 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInRight animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 400, 'easeInOutExpo' );
 							
 						});
-					}, 1000);
+					}, 400);
 
 					
 					$(this.element).addClass('animated');
