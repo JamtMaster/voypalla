@@ -14,10 +14,10 @@
 .body	{
 	background: rgb(23, 237, 186);
 }
-
 	.login-form {
-		width: 340px;
-    	margin: 120px auto;
+		width: 500px;
+    	margin: 130px auto;
+
 	}
     .login-form form {
     	margin-bottom: 15px;
@@ -25,18 +25,21 @@
 				background: rgb(211, 240, 249);
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
         padding: 50px;
+        border-radius: 6px;
     }
     .login-form h2 {
         margin: 0 0 15px;
     }
     .login-form .hint-text {
 		color: #777;
-		padding-bottom: 15px;
+		padding-bottom: 30px;
 		text-align: center;
     }
     .form-control, .btn {
         min-height: 38px;
-        border-radius: 2px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+
     }
     .login-btn {
         font-size: 15px;
@@ -44,10 +47,14 @@
     }
 
     .social-btn .btn {
-        margin: 10px 0;
+        display: block;
         font-size: 18px;
         text-align: left;
         line-height: 24px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 	.social-btn .btn i {
 		float: left;
@@ -56,23 +63,22 @@
 	}
 	.input-group-addon .fa{
 		font-size: 18px;
+
 	}
+
 </style>
 </head>
 <body class="body">
-  <section data-section="login">
-    <div class="login-form">
-        <form action="/examples/actions/confirmation.php" method="post">
-            <h2 class="text-center">Iniciar sesion </h2>
-            <div class="text-center social-btn">
-                <a href="www.facebook.com" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i><b>Facebook</b></a>
-                <a href="www.twitter.com" class="btn btn-info btn-block"><i class="fa fa-twitter"></i><b>Twitter</b></a>
-    			<a href="www.google.com" class="btn btn-danger btn-block"><i class="fa fa-google"></i><b>Google</b></a>
-            </div>
+<div class="login-form">
+    <form action="/examples/actions/confirmation.php" method="post">
+        <h2 class="text-center">INICIAR SESION </h2>
+        <div class="text-center social-btn">
+            <a href="" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i><b>Facebook</b></a>
+            <a href="" class="btn btn-info btn-block"><i class="fa fa-twitter"></i><b>Twitter</b></a>
+			<a href="" class="btn btn-danger btn-block"><i class="fa fa-google"></i><b>Google</b></a>
+        </div>
 
-        </form>
-    </div>
-  </section>
-
+    </form>
+</div>
 </body>
 </html>

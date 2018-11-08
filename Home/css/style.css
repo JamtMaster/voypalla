@@ -21,6 +21,8 @@ body {
   background: #fff;
   height: 100%;
   position: relative;
+  max-width: 100%;
+
 }
 
 a {
@@ -199,38 +201,39 @@ h1, h2, h3, h4, h5, h6 {
 /*Codigo para login modal*/
 .login-form {
     width: 450px;
-      margin: 120px auto;
+    margin: 120px auto;
+    max-width: 100%;
   }
     .login-form form {
       margin-bottom: 15px;
     }
-    .login-form h2 {
-        margin: 0 0 15px;
+.login-form h2 {
+    margin: 0 0 15px;
     }
-    .login-form .hint-text {
+.login-form .hint-text {
     color: #777;
     padding-bottom: 15px;
     text-align: center;
     }
-    .form-control, .btn {
-        min-height: 38px;
-        border-radius: 2px;
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
     }
-    .login-btn {
-        font-size: 15px;
-        font-weight: bold;
+.login-btn {
+    font-size: 15px;
+    font-weight: bold;
     }
 
-    .social-btn .btn {
-        margin: 10px 0;
-        font-size: 18px;
-        text-align: left;
-        line-height: 24px;
+  .social-btn .btn {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: left;
+    line-height: 24px;
     }
   .social-btn .btn i {
     float: left;
     margin: 4px 15px  0 5px;
-        min-width: 15px;
+    min-width: 15px;
   }
 
 #fh5co-header {
@@ -291,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li a span {
   position: relative;
   display: block;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
 }
 #fh5co-header #navbar li a span:before {
   content: "";
@@ -495,8 +498,8 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-intro {
   position: relative;
   bottom: 0;
-  margin-top: -5px;
-  z-index: 10;
+  margin-top: -10px;
+  z-index: 7;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro {
@@ -518,9 +521,9 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   text-align: center;
   font-size: 18px;
-  min-height: 300px;
+  min-height: 200px;
   vertical-align: middle;
-  padding: 40px;
+  padding: 65px;
   background: #fff;
   -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
