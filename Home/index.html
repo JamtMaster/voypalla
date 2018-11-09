@@ -177,22 +177,22 @@
 					<br>
 					<div class="form-group ">
 						<label for="Nombre" class="sr-only">Nombre</label>
-						<input id="Nombre" class="form-control" placeholder="Nombre" type="text">
+						<input id="Nombre" class="form-control" required placeholder="Nombre" type="text">
 					</div>
 					<div class="form-group ">
 						<label for="email" class="sr-only">Email</label>
-						<input id="email" class="form-control" placeholder="Email" type="email">
+						<input id="email" class="form-control" required placeholder="Email" type="email">
 					</div>
 					<div class="form-group ">
 						<label for="Telefono" class="sr-only">Telefono</label>
-						<input id="Telefono" class="form-control" placeholder="Telefono" type="text">
+						<input id="Telefono" class="form-control" required  maxlength="10" placeholder="Telefono: no utilizar guiones" type="tel">
 					</div>
 					<div class="form-group ">
 						<label for="Mensaje" class="sr-only">Mensaje</label>
-						<textarea name="" id="Mensaje" cols="30" rows="5" class="form-control" placeholder="Escriba aqui su mensaje"></textarea>
+						<textarea name="" id="Mensaje" cols="30" rows="5" class="form-control" required  minlength="4" maxlength="250" placeholder="Escriba aqui su mensaje"></textarea>
 					</div>
 					<div class="form-group ">
-						<input class="btn btn-info btn-lg" value="Enviar" type="submit">
+						<input class="btn btn-info btn-lg" value="Enviar" required type="submit">
 					</div>
 					</div>
 				</div>
