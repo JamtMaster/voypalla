@@ -790,6 +790,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   position: relative;
   width: 100%;
+  
 }
 .social li {
   list-style: none;
@@ -991,7 +992,7 @@ h1, h2, h3, h4, h5, h6 {
 .owl-carousel-fullwidth .item {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top left;
+  background-position: : top left;
   position: relative;
 }
 .owl-carousel-fullwidth .item .overlay {
