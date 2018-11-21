@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrama nombreAutor="hbrito" version="8" formula="%t_%c" nombreProyecto="servicios">
+  <DataBase>2</DataBase>
+  <lista-item>
+    <item type="modelo-tabla" id="{ec727732-df04-497d-aedb-14daffdc2ad4}">
+      <nombre>Cliente</nombre>
+      <posicion>
+        <x>-392</x>
+        <y>-275</y>
+      </posicion>
+      <lista-columnas>
+        <columna notas="" nombre="idclient" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{f7e2ca4e-73c5-4bb1-b124-1fdaf2506b69}" llaveprimaria="1"/>
+        <columna notas="" nombre="nombre" nulo="0" tipoDato="varchar(50)" llaveUnica="" id="{702d86f1-05b8-4ef6-817e-ba73d13dd8ad}" llaveprimaria="0"/>
+        <columna notas="" nombre="apellido" nulo="0" tipoDato="varchar(50)" llaveUnica="" id="{5e532856-b3bc-4d3a-9721-b3118a82b446}" llaveprimaria="0"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{05766843-2df7-497f-a06c-999b9ee0f70e}">
+      <nombre>Reservaciones</nombre>
+      <posicion>
+        <x>-114</x>
+        <y>-304</y>
+      </posicion>
+      <lista-columnas>
+        <columna notas="" nombre="idreservas" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{54c59a5d-2e17-4858-b088-e3efb4ba25d2}" llaveprimaria="1"/>
+        <columna notas="" nombre="idclient" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{c0e62e79-1860-431e-bcfb-b54183d85b04}" llaveprimaria="0"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{d955ae98-427d-41ab-ad30-7eb9c3735ed0}">
+      <nombre>Empleados</nombre>
+      <posicion>
+        <x>-548</x>
+        <y>-45</y>
+      </posicion>
+      <lista-columnas>
+        <columna notas="" nombre="idempleado" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{41f248ce-dda3-4ae9-b030-ed14cd8f030a}" llaveprimaria="1"/>
+        <columna notas="" nombre="nombre" nulo="0" tipoDato="varchar(50)" llaveUnica="" id="{13a67a39-fec5-423a-8c32-e7fda6b40da2}" llaveprimaria="0"/>
+        <columna notas="" nombre="apellido" nulo="0" tipoDato="varchar(50)" llaveUnica="" id="{4e445d8b-f80f-4f66-ad5b-dfaf2a080fb5}" llaveprimaria="0"/>
+        <columna notas="" nombre="Profesion" nulo="0" tipoDato="varchar(50)" llaveUnica="" id="{5302bdda-4811-4e50-a918-7e485d3e41f0}" llaveprimaria="0"/>
+        <columna notas="" nombre="Area" nulo="0" tipoDato="varchar(50)" llaveUnica="" id="{db59d6a1-a717-40c2-8294-551c89d0774b}" llaveprimaria="0"/>
+        <columna notas="" nombre="idhorario" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{d6c47f5c-2630-4b22-8bf6-9452ec4cfd2b}" llaveprimaria="0"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{b16397ed-0011-4c1c-a8e0-b761cecd7047}">
+      <nombre>Negocios</nombre>
+      <posicion>
+        <x>176</x>
+        <y>-178</y>
+      </posicion>
+      <lista-columnas>
+        <columna notas="" nombre="idnegocio" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{05eb21c5-05d8-4eea-b21e-f9c08650b4e1}" llaveprimaria="1"/>
+        <columna notas="" nombre="RNC" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{8aa7c055-52e8-4d5d-ac6b-2b3f8e86e0c3}" llaveprimaria="0"/>
+        <columna notas="" nombre="Nombre" nulo="0" tipoDato="varchar(50)" llaveUnica="" id="{8ebbc131-4366-4cf7-8f0d-c40666f8ce67}" llaveprimaria="0"/>
+        <columna notas="" nombre="direccion" nulo="0" tipoDato="varchar(50)" llaveUnica="" id="{a9c650e2-6d10-4f41-8f92-c109ed7afee8}" llaveprimaria="0"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-tabla" id="{cef7cf99-7e60-4ef6-b09c-598fdbdb8572}">
+      <nombre>Horarios</nombre>
+      <posicion>
+        <x>-196</x>
+        <y>-16</y>
+      </posicion>
+      <lista-columnas>
+        <columna notas="" nombre="idhorario" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{6c81ab30-9e40-4c60-baa2-cff307f0b2c0}" llaveprimaria="1"/>
+        <columna notas="" nombre="Hora" nulo="0" tipoDato="TIME" llaveUnica="" id="{865d9eb4-e7d6-4e45-a48f-2270a6dac89a}" llaveprimaria="0"/>
+        <columna notas="" nombre="turno" nulo="0" tipoDato="char(n)" llaveUnica="" id="{3be8d0fc-5cc3-4cef-99ce-fb72c64d0f5a}" llaveprimaria="0"/>
+        <columna notas="" nombre="idnegocio" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{61ab5c32-9c07-4013-996f-c1516f73ee5c}" llaveprimaria="0"/>
+        <columna notas="" nombre="idreservas" nulo="0" tipoDato="INTEGER" llaveUnica="" id="{8c2c3222-96c0-4a40-9a0f-65c9bd6a3a5b}" llaveprimaria="0"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-relacion" id="{a414e79a-8732-4ca7-91f2-c827542217f2}">
+      <inicio>
+        <posicion>
+          <x>-196</x>
+          <y>38.9063</y>
+        </posicion>
+        <angulo>180</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{cef7cf99-7e60-4ef6-b09c-598fdbdb8572}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-325.422</x>
+          <y>16.9063</y>
+        </posicion>
+        <angulo>0</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{d955ae98-427d-41ab-ad30-7eb9c3735ed0}</owner>
+      </final>
+    </item>
+    <item type="modelo-relacion" id="{6e5c61dc-4a1f-41ad-9028-a964e07cd207}">
+      <inicio>
+        <posicion>
+          <x>261.266</x>
+          <y>-96.1875</y>
+        </posicion>
+        <angulo>270</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{b16397ed-0011-4c1c-a8e0-b761cecd7047}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-26.4583</x>
+          <y>-16</y>
+        </posicion>
+        <angulo>90</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{cef7cf99-7e60-4ef6-b09c-598fdbdb8572}</owner>
+      </final>
+    </item>
+    <item type="modelo-relacion" id="{89ecc561-6af7-4d89-af29-d2b36d9a7497}">
+      <inicio>
+        <posicion>
+          <x>-232.313</x>
+          <y>-241.094</y>
+        </posicion>
+        <angulo>0</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{ec727732-df04-497d-aedb-14daffdc2ad4}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-114</x>
+          <y>-270.094</y>
+        </posicion>
+        <angulo>180</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{05766843-2df7-497f-a06c-999b9ee0f70e}</owner>
+      </final>
+    </item>
+    <item type="modelo-relacion" id="{f2dc61a5-7b07-44f3-a0e2-bd8334a2d732}">
+      <inicio>
+        <posicion>
+          <x>-18.6875</x>
+          <y>-236.188</y>
+        </posicion>
+        <angulo>270</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{05766843-2df7-497f-a06c-999b9ee0f70e}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-111.229</x>
+          <y>-16</y>
+        </posicion>
+        <angulo>90</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{cef7cf99-7e60-4ef6-b09c-598fdbdb8572}</owner>
+      </final>
+    </item>
+  </lista-item>
+</diagrama>

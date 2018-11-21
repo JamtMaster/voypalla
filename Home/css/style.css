@@ -522,9 +522,9 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   text-align: center;
   font-size: 18px;
-  min-height: 300px;
+  min-height: 400px;
   vertical-align: middle;
-  padding: 40px;
+  padding: 60px;
   background: #fff;
   -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
@@ -1259,7 +1259,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #footer .gotop {
   position: absolute;
-  top: -20px;
+  top: -25px;
   left: 50%;
   margin-left: -40px;
   background: #fff;
