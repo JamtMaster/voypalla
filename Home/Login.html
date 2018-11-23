@@ -12,7 +12,7 @@
 <style type="text/css">
  
  body{
-    background-color: #508AFF;
+     background-image: -webkit-gradient(linear, 0% 0%, 100% 100%,color-stop(0, rgb(63, 149, 234)),color-stop(1, rgb(82, 211, 170)));
  }
 	.login-form {
 		width: 500px;
@@ -29,22 +29,11 @@
     .login-form h2 {
         margin: 0 0 15px;
     }
-    .login-form .hint-text {
-		color: #777;
-		padding-bottom: 30px;
-		text-align: center;
-    }
-    .form-control, .btn {
+    .btn {
         min-height: 38px;
         border-radius: 4px;
         margin-bottom: 10px;
-
     }
-    .login-btn {        
-        font-size: 15px;
-        font-weight: bold;
-    }
-    
     .social-btn .btn {
         display: block;
         font-size: 18px;
@@ -53,34 +42,25 @@
         width: 250px;
         margin-left: auto;
         margin-right: auto;
-
     }
 	.social-btn .btn i {
 		float: left;
 		margin: 4px 15px  0 5px;
         min-width: 15px;
 	}
-	.input-group-addon .fa{
-		font-size: 18px;
-
-	}
     
 </style>
 </head>
 <body>
 <div class="login-form">
-    <form action="/examples/actions/confirmation.php" method="post">
-        <h2 class="text-center">INICIAR SESION </h2>		
+    <form method="post">
+        <h2 class="text-center">INICIAR SESION </h2>
+        <br>
         <div class="text-center social-btn">
             <a href="" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i><b>Facebook</b></a>
             <a href="" class="btn btn-info btn-block"><i class="fa fa-twitter"></i><b>Twitter</b></a>
 			<a href="" class="btn btn-danger btn-block"><i class="fa fa-google"></i><b>Google</b></a>
         </div>
-		
-        <div class="clearfix">
-            <label class="pull-left checkbox-inline"><input type="checkbox"> Recuerdame</label>
-        </div>  
-        
     </form>
 </div>
 </body>
