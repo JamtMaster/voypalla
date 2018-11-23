@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        body{
+            background-image: -webkit-gradient(linear, 0% 0%, 100% 100%,color-stop(0, rgb(63, 149, 234)),color-stop(1, rgb(82, 211, 170)));
+        }
+
+        .main {
+            width: 500px;
+            margin: 130px auto;
+        }
+
+        .btn {
+            min-height: 38px;
+            border-radius: 4px;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+        .main form {
+            margin-bottom: 30px;
+            background: #fff;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            border-radius: 6px;
+        }
+        .main h2 {
+              margin: 0 0 15px;
+          }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="main">
+        <div class="main-center">
+            <form class="" method="post" action="#">
+                <h2 class="text-center">Formulario de Registro</h2>
+                <br>
+                <div class="form-group">
+                    <label for="name">Negocio</label>
+                    <div class="input-group">
+                        <span class="input-group-addon" aria-hidden="true"></span>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Nombre del negocio"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="username">Direccion</label>
+                    <div class="input-group">
+                        <span class="input-group-addon" aria-hidden="true"></span>
+                        <input type="text" class="form-control" name="username" placeholder="Direccion"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label >Sector Comercial</label>
+                    <div class="input-group">
+                        <span class="input-group-addon" aria-hidden="true"></span>
+                        <input type="text" class="form-control" name="sector" placeholder="Sector comercial"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">RNC</label>
+                    <div class="input-group">
+                        <span class="input-group-addon" aria-hidden="true"></span>
+                        <input type="text" class="form-control" name="rnc" placeholder="RNC"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm">Sociedad Comercial</label>
+                    <select class="society">
+                        <option>No Aplica</option>
+                        <option>Sociedad de Responsabilidad Limitada (SRL)</option>
+                        <option>Empresa Individual de Responsabilidad Limitada (EIRL)</option>
+                        <option>Sociedad Anónima Simplificada (SAS)</option>
+                        <option>Sociedad Anónima (S.A.)</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-info btn-block">Siguiente</button>
+
+            </form>
+        </div><!--main-center"-->
+    </div><!--main-->
+</div><!--container-->
+
+</body>
+</html>
