@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2598abc1-869e-44a5-9744-98011ef20902" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Turnos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/images/4.jpg" beforeDir="false" />
+    <list default="true" id="2598abc1-869e-44a5-9744-98011ef20902" name="Default Changelist" comment="Correccion de la seccion servicios y eliminacio">
       <change beforePath="$PROJECT_DIR$/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +12,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="204" selection-start-line="204" selection-end-line="204" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7747#7753#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Home/sass/style.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Home/Login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-483">
-              <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+            <state relative-caret-position="69">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -69,6 +66,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>background</find>
+      <find>fh5co-intro</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,6 +79,7 @@
         <option value="$PROJECT_DIR$/Home/negocio.html" />
         <option value="$PROJECT_DIR$/Home/Login.html" />
         <option value="$PROJECT_DIR$/Home/index.html" />
+        <option value="$PROJECT_DIR$/Home/Login/login.html" />
       </list>
     </option>
   </component>
@@ -107,6 +106,12 @@
               <item name="voypalla" type="b2602c69:ProjectViewProjectNode" />
               <item name="voypalla" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voypalla" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voypalla" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="voypalla" type="b2602c69:ProjectViewProjectNode" />
@@ -176,7 +181,7 @@
       <updated>1541728584643</updated>
       <workItem from="1542827218233" duration="786000" />
       <workItem from="1542937624134" duration="2735000" />
-      <workItem from="1542986231093" duration="11829000" />
+      <workItem from="1542986231093" duration="14270000" />
     </task>
     <task id="LOCAL-00001" summary="Correccion de seccion servicios">
       <created>1542827842237</created>
@@ -206,11 +211,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542998388310</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se eliminaron elementos innecesarios y se agrego nueva carpeta de login">
+      <created>1543013092883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543013092883</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15350000" />
+    <option name="totallyTimeSpent" value="17791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="808" extended-state="6" />
@@ -244,7 +256,8 @@
     <MESSAGE value="Correccion de seccion registro negocios" />
     <MESSAGE value="Correccion de referencias en la seccion contacto" />
     <MESSAGE value="Correccion de algunos detalles superficiales en el index y el login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correccion de algunos detalles superficiales en el index y el login" />
+    <MESSAGE value="Se eliminaron elementos innecesarios y se agrego nueva carpeta de login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se eliminaron elementos innecesarios y se agrego nueva carpeta de login" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Home/horario.html">
@@ -272,13 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Home/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Home/negocio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -300,13 +306,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Home/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1363">
+          <caret line="646" column="13" lean-forward="true" selection-start-line="646" selection-start-column="13" selection-end-line="646" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7747#7753#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/Login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
