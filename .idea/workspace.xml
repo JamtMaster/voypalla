@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2598abc1-869e-44a5-9744-98011ef20902" name="Default Changelist" comment="Correccion de la seccion servicios y eliminacio">
-      <change beforePath="$PROJECT_DIR$/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/index.html" afterDir="false" />
+    <list default="true" id="2598abc1-869e-44a5-9744-98011ef20902" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,41 +15,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="204" selection-start-line="204" selection-end-line="204" />
+            <state relative-caret-position="414">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#7747#7753#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Home/Login/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Home/Login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home/negocio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="230">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -95,6 +76,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,23 +89,10 @@
               <item name="voypalla" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="voypalla" type="b2602c69:ProjectViewProjectNode" />
-              <item name="voypalla" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="voypalla" type="b2602c69:ProjectViewProjectNode" />
-              <item name="voypalla" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.negocio.html">
     <configuration name="Login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/voypalla/Home/Login.html">
       <method v="2" />
     </configuration>
@@ -161,9 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.negocio.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.Turnos.html" />
-        <item itemvalue="JavaScript Debug.negocio.html" />
         <item itemvalue="JavaScript Debug.Login.html" />
         <item itemvalue="JavaScript Debug.formClientNego.html" />
       </list>
@@ -181,7 +150,9 @@
       <updated>1541728584643</updated>
       <workItem from="1542827218233" duration="786000" />
       <workItem from="1542937624134" duration="2735000" />
-      <workItem from="1542986231093" duration="14270000" />
+      <workItem from="1542986231093" duration="15316000" />
+      <workItem from="1543532019325" duration="628000" />
+      <workItem from="1543537928685" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="Correccion de seccion servicios">
       <created>1542827842237</created>
@@ -218,11 +189,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543013092883</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Correccion de la seccion servicios y eliminacion de la seccion registrarse para implementarla en el login mismo">
+      <created>1543021781472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543021781472</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17791000" />
+    <option name="totallyTimeSpent" value="19657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="808" extended-state="6" />
@@ -257,7 +235,8 @@
     <MESSAGE value="Correccion de referencias en la seccion contacto" />
     <MESSAGE value="Correccion de algunos detalles superficiales en el index y el login" />
     <MESSAGE value="Se eliminaron elementos innecesarios y se agrego nueva carpeta de login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se eliminaron elementos innecesarios y se agrego nueva carpeta de login" />
+    <MESSAGE value="Correccion de la seccion servicios y eliminacion de la seccion registrarse para implementarla en el login mismo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correccion de la seccion servicios y eliminacion de la seccion registrarse para implementarla en el login mismo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Home/horario.html">
@@ -275,27 +254,12 @@
         <state relative-caret-position="-2277" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Home/formClientNego.html">
+    <entry file="file://$PROJECT_DIR$/Home/formClientNego.html" />
+    <entry file="file://$PROJECT_DIR$/Home/Turnos.html" />
+    <entry file="file://$PROJECT_DIR$/Home/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="56" column="8" selection-start-line="56" selection-end-line="109" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/negocio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/Turnos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="-1363">
+          <caret line="646" column="13" lean-forward="true" selection-start-line="646" selection-start-column="13" selection-end-line="646" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -306,30 +270,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Home/sass/style.scss">
+    <entry file="file://$PROJECT_DIR$/Home/Login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1363">
-          <caret line="646" column="13" lean-forward="true" selection-start-line="646" selection-start-column="13" selection-end-line="646" selection-end-column="13" />
+        <state relative-caret-position="46">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        <state relative-caret-position="414">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#7747#7753#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Home/Login/login.html">
+    <entry file="file://$PROJECT_DIR$/Home/negocio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="230">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
